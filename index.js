@@ -13,8 +13,8 @@ function submitData(name, email) {
       .then( function (response) {
         return response.json()
       })
-      .then( function (object) {
-        document.body.innerHTML = object["id"]
+      .then( function (users) {
+        document.body.innerHTML = users.id 
       })
       .catch(function(error) {
         alert("There was an error that occured");
