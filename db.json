@@ -8,6 +8,11 @@
       "dogName": "Lola",
       "dogBreed": "Giant Schnauzer",
       "id": 2
+    },
+    {
+      "dogName": "Tank",
+      "dogBreed": "Black Lab",
+      "id": 3
     }
   ],
   "cats": [{
